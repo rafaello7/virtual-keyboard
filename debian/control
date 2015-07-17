@@ -1,0 +1,13 @@
+Source: virtual-keyboard
+Section: utils
+Priority: optional
+Maintainer: Rafal <fatwildcat@gmail.com>
+Build-Depends: debhelper (>= 9), autotools-dev, libgtk-3-dev
+Standards-Version: 3.9.6
+Homepage: http://github.com/rafaello7/virtual-keyboard
+
+Package: virtual-keyboard
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Lightweight virtual keyboard based on GTK+
+ Virtual (on-screen) keyboard suitable for tablets.

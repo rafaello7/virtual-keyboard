@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Virtual Keyboard
+Exec=virtual-keyboard
+Icon=virtual-keyboard
+Terminal=false
+StartupNotify=true
+Categories=Utility
