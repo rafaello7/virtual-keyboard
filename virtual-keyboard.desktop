@@ -1,7 +1,7 @@
 [Desktop Entry]
 Type=Application
 Name=Virtual Keyboard
-Exec=virtual-keyboard
+Exec=virtual-keyboard -decorated -taskbar -notop -width 50%
 Icon=virtual-keyboard
 Terminal=false
 StartupNotify=true

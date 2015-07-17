@@ -9,7 +9,7 @@ static void Usage(void)
     "usage: virtual-keyboard [-h] [-x [-]<num>[%%]] [-y [-]<num>[%%]]\n"
     "                        [-xalt [-]<num>[%%]] [-yalt [-]<num>[%%]]\n"
     "                        [-width [-]<num>[%%]] [-height <num>[%%]]\n"
-    "                        [-decorated] [-resizable] [-taskbar]\n"
+    "                        [-decorated] [-resizeGrip] [-taskbar]\n"
     "                        [-notop] [-iconify|-present|-toggle]\n"
     "                        [-ralt <compose keys>]\n"
     "\n"
