@@ -19,22 +19,47 @@
 
         <header>
           <h1>Virtual keyboard</h1>
-          <h2>Simple, lightweight virtual keyboard suitable for tablets. Based on GTK.</h2>
+          <h2>Lightweight virtual keyboard suitable for tablets</h2>
         </header>
 
         <section id="downloads" class="clearfix">
-          <a href="https://github.com/rafaello7/virtual-keyboard/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
-          <a href="https://github.com/rafaello7/virtual-keyboard/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+          <a href="https://github.com/rafaello7/virtual-keyboard/releases" id="download-zip" class="button"><span>Downloads</span></a>
           <a href="https://github.com/rafaello7/virtual-keyboard" id="view-on-github" class="button"><span>View on GitHub</span></a>
         </section>
 
         <hr>
 
         <section id="main_content">
-          <h3>
-<a id="virtual-keyboard" class="anchor" href="#virtual-keyboard" aria-hidden="true"><span class="octicon octicon-link"></span></a>Virtual keyboard</h3>
-
-<p>Simple, lightweight virtual keyboard suitable for tablets. Based on GTK.</p>
+          <h3>Virtual keyboard</h3>
+          <br/>
+          <p>
+            Cube U30GT-H with Debian and XFCE desktop:
+          </p>
+          <p>
+            <img src="images/cube.png">
+          </p>
+          <p>
+            The keboard icon on the left bottom corner of the screen shows/hides the virtual keyboard. It is a panel launcher
+            with the following command:
+          </p>
+          <pre>
+            virtual-keyboard -x 40 -toggle -rightalt "aa,cc'ee,ll/nn'oo'ss'zz.xz'"</pre>
+          <p>
+              The <code>-x 40</code> option moves left edge of the keyboard 40 pixels from the left edge of the screen,
+              so the keyboard window does not overlap with panel.
+          </p>
+          </p>
+            The <code>-toggle</code> option causes that keyboard is shown and then hidden, every second touch of the
+            icon.
+          </p>
+          <p>
+            The <code>-rightalt</code> option sets a set of international characters available after press of right Alt.
+            In this case it is a set of characters for the Polish language.<br/>
+            The argument constists of 3-character sequences. First character is the key, which the character should be
+            assigned to. Subsequent two characters is the character compose sequence. See for example
+            <a href="https://en.wikipedia.org/wiki/Compose_key#Common_compose_combinations">Compose key on Wikipedia</a>
+            for more information about compose key sequences.
+          </p>
         </section>
 
         <footer>
