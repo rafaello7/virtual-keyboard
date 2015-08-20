@@ -292,6 +292,7 @@ static void InitMainWindow(struct CmdLineOptions *opts, GtkApplication *app)
     gtk_window_set_skip_taskbar_hint(GTK_WINDOW(window), !opts->isOnTaskBar);
     gtk_window_set_keep_above(GTK_WINDOW(window), opts->isOnTop);
     gtk_window_set_accept_focus(GTK_WINDOW(window), FALSE);
+    gtk_window_set_title(GTK_WINDOW(window), "Virtual keyboard");
     if( opts->winStateToSet == CL_WSTATE_ICONIFY )
         gtk_window_iconify(GTK_WINDOW(window));
 

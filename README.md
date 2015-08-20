@@ -1,2 +1,2 @@
-# virtual-keyboard
-Simple, lightweight virtual keyboard suitable for tablets. Based on GTK.
+# Virtual keyboard
+Lightweight virtual keyboard suitable for tablets. Based on GTK.
